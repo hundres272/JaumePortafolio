@@ -1,0 +1,36 @@
+.proyects {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.proyects h2 {
+    font: var(--headline5);
+}
+
+.proyects h2 span:first-child {
+    /* font: var(--headline4); */
+    font-weight: normal;
+    display: block;
+}
+
+.proyects h2 span:nth-child(2) {
+    display: block;
+    margin: 24px 0;
+}
+
+.proyects img {
+    display: block;
+    margin: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .proyects {
+        inline-size: 900px;
+        block-size: 678px;
+        margin: auto;
+        /* background-color: red; */
+        display: flex;
+        align-items: center;
+        padding: 0;
+    }
+}
